@@ -1,0 +1,167 @@
+2020-02-22 19:55:35,698 - INFO - using device:cuda
+2020-02-22 19:55:38,126 - INFO - model config:
+{
+  "attn_pdrop": 0.1,
+  "embd_pdrop": 0.1,
+  "finetuning_task": null,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "n_ctx": 300,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_layer": 10,
+  "n_positions": 300,
+  "num_labels": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "torchscript": false,
+  "use_bfloat16": false,
+  "vocab_size": 13317
+}
+
+2020-02-22 19:55:40,512 - INFO - number of model parameters: 81338112
+2020-02-22 19:55:40,512 - INFO - loading traing data
+2020-02-22 20:01:21,171 - INFO - using device:cuda
+2020-02-22 20:01:23,573 - INFO - model config:
+{
+  "attn_pdrop": 0.1,
+  "embd_pdrop": 0.1,
+  "finetuning_task": null,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "n_ctx": 300,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_layer": 10,
+  "n_positions": 300,
+  "num_labels": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "resid_pdrop": 0.1,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "torchscript": false,
+  "use_bfloat16": false,
+  "vocab_size": 13317
+}
+
+2020-02-22 20:01:25,960 - INFO - tokenizing raw data,raw data path:data/train.txt, token output path:data/train_tokenized.txt
+2020-02-22 20:01:26,201 - INFO - there are 500001 dialogue in raw dataset
+2020-02-22 20:02:04,108 - INFO - finish preprocessing raw data,the result is stored in data/train_tokenized.txt
+2020-02-22 20:02:04,148 - INFO - number of model parameters: 81338112
+2020-02-22 20:02:04,150 - INFO - loading traing data
+2020-02-22 20:02:04,706 - INFO - total training steps = 1500000
+2020-02-22 20:02:04,709 - INFO - starting training
+2020-02-22 20:02:10,218 - INFO - batch 1 of epoch 1, loss 9.73946475982666, accuracy 0.0
+2020-02-22 20:02:10,666 - INFO - WARNING: ran out of memory,times: 1
+2020-02-22 20:02:10,823 - INFO - WARNING: ran out of memory,times: 2
+2020-02-22 20:02:10,973 - INFO - WARNING: ran out of memory,times: 3
+2020-02-22 20:02:10,997 - INFO - WARNING: ran out of memory,times: 4
+2020-02-22 20:02:11,370 - INFO - batch 6 of epoch 1, loss 9.74490737915039, accuracy 0.0
+2020-02-22 20:02:11,454 - INFO - WARNING: ran out of memory,times: 5
+2020-02-22 20:02:11,803 - INFO - batch 8 of epoch 1, loss 9.767026901245117, accuracy 0.0
+2020-02-22 20:02:11,867 - INFO - WARNING: ran out of memory,times: 6
+2020-02-22 20:02:12,023 - INFO - WARNING: ran out of memory,times: 7
+2020-02-22 20:02:12,332 - INFO - batch 11 of epoch 1, loss 9.739035606384277, accuracy 0.0
+2020-02-22 20:02:12,467 - INFO - WARNING: ran out of memory,times: 8
+2020-02-22 20:02:12,628 - INFO - WARNING: ran out of memory,times: 9
+2020-02-22 20:02:12,668 - INFO - WARNING: ran out of memory,times: 10
+2020-02-22 20:02:12,682 - INFO - WARNING: ran out of memory,times: 11
+2020-02-22 20:02:12,695 - INFO - WARNING: ran out of memory,times: 12
+2020-02-22 20:02:12,699 - INFO - WARNING: ran out of memory,times: 13
+2020-02-22 20:02:12,710 - INFO - WARNING: ran out of memory,times: 14
+2020-02-22 20:02:12,720 - INFO - WARNING: ran out of memory,times: 15
+2020-02-22 20:02:12,739 - INFO - WARNING: ran out of memory,times: 16
+2020-02-22 20:02:12,750 - INFO - WARNING: ran out of memory,times: 17
+2020-02-22 20:02:12,767 - INFO - WARNING: ran out of memory,times: 18
+2020-02-22 20:02:12,773 - INFO - WARNING: ran out of memory,times: 19
+2020-02-22 20:02:12,785 - INFO - WARNING: ran out of memory,times: 20
+2020-02-22 20:02:12,803 - INFO - WARNING: ran out of memory,times: 21
+2020-02-22 20:02:12,844 - INFO - WARNING: ran out of memory,times: 22
+2020-02-22 20:02:12,858 - INFO - WARNING: ran out of memory,times: 23
+2020-02-22 20:02:12,867 - INFO - WARNING: ran out of memory,times: 24
+2020-02-22 20:02:12,884 - INFO - WARNING: ran out of memory,times: 25
+2020-02-22 20:02:12,917 - INFO - WARNING: ran out of memory,times: 26
+2020-02-22 20:02:12,935 - INFO - WARNING: ran out of memory,times: 27
+2020-02-22 20:02:12,948 - INFO - WARNING: ran out of memory,times: 28
+2020-02-22 20:02:12,964 - INFO - WARNING: ran out of memory,times: 29
+2020-02-22 20:02:12,990 - INFO - WARNING: ran out of memory,times: 30
+2020-02-22 20:02:12,999 - INFO - WARNING: ran out of memory,times: 31
+2020-02-22 20:02:13,025 - INFO - WARNING: ran out of memory,times: 32
+2020-02-22 20:02:13,043 - INFO - WARNING: ran out of memory,times: 33
+2020-02-22 20:02:13,048 - INFO - WARNING: ran out of memory,times: 34
+2020-02-22 20:02:13,061 - INFO - WARNING: ran out of memory,times: 35
+2020-02-22 20:02:13,073 - INFO - WARNING: ran out of memory,times: 36
+2020-02-22 20:02:13,094 - INFO - WARNING: ran out of memory,times: 37
+2020-02-22 20:02:13,108 - INFO - WARNING: ran out of memory,times: 38
+2020-02-22 20:02:13,131 - INFO - WARNING: ran out of memory,times: 39
+2020-02-22 20:02:13,148 - INFO - WARNING: ran out of memory,times: 40
+2020-02-22 20:02:13,169 - INFO - WARNING: ran out of memory,times: 41
+2020-02-22 20:02:13,188 - INFO - WARNING: ran out of memory,times: 42
+2020-02-22 20:02:13,210 - INFO - WARNING: ran out of memory,times: 43
+2020-02-22 20:02:13,228 - INFO - WARNING: ran out of memory,times: 44
+2020-02-22 20:02:13,249 - INFO - WARNING: ran out of memory,times: 45
+2020-02-22 20:02:13,262 - INFO - WARNING: ran out of memory,times: 46
+2020-02-22 20:02:13,277 - INFO - WARNING: ran out of memory,times: 47
+2020-02-22 20:02:13,297 - INFO - WARNING: ran out of memory,times: 48
+2020-02-22 20:02:13,317 - INFO - WARNING: ran out of memory,times: 49
+2020-02-22 20:02:13,324 - INFO - WARNING: ran out of memory,times: 50
+2020-02-22 20:02:13,338 - INFO - WARNING: ran out of memory,times: 51
+2020-02-22 20:02:13,349 - INFO - WARNING: ran out of memory,times: 52
+2020-02-22 20:02:13,363 - INFO - WARNING: ran out of memory,times: 53
+2020-02-22 20:02:13,394 - INFO - WARNING: ran out of memory,times: 54
+2020-02-22 20:02:13,403 - INFO - WARNING: ran out of memory,times: 55
+2020-02-22 20:02:13,416 - INFO - WARNING: ran out of memory,times: 56
+2020-02-22 20:02:13,431 - INFO - WARNING: ran out of memory,times: 57
+2020-02-22 20:02:13,445 - INFO - WARNING: ran out of memory,times: 58
+2020-02-22 20:02:13,469 - INFO - WARNING: ran out of memory,times: 59
+2020-02-22 20:02:13,490 - INFO - WARNING: ran out of memory,times: 60
+2020-02-22 20:02:13,497 - INFO - WARNING: ran out of memory,times: 61
+2020-02-22 20:02:13,516 - INFO - WARNING: ran out of memory,times: 62
+2020-02-22 20:02:13,530 - INFO - WARNING: ran out of memory,times: 63
+2020-02-22 20:02:13,546 - INFO - WARNING: ran out of memory,times: 64
+2020-02-22 20:02:13,565 - INFO - WARNING: ran out of memory,times: 65
+2020-02-22 20:02:13,573 - INFO - WARNING: ran out of memory,times: 66
+2020-02-22 20:02:13,591 - INFO - WARNING: ran out of memory,times: 67
+2020-02-22 20:02:13,604 - INFO - WARNING: ran out of memory,times: 68
+2020-02-22 20:02:13,614 - INFO - WARNING: ran out of memory,times: 69
+2020-02-22 20:02:13,628 - INFO - WARNING: ran out of memory,times: 70
+2020-02-22 20:02:13,639 - INFO - WARNING: ran out of memory,times: 71
+2020-02-22 20:02:13,658 - INFO - WARNING: ran out of memory,times: 72
+2020-02-22 20:02:13,677 - INFO - WARNING: ran out of memory,times: 73
+2020-02-22 20:02:13,691 - INFO - WARNING: ran out of memory,times: 74
+2020-02-22 20:02:13,704 - INFO - WARNING: ran out of memory,times: 75
+2020-02-22 20:02:13,720 - INFO - WARNING: ran out of memory,times: 76
+2020-02-22 20:02:13,731 - INFO - WARNING: ran out of memory,times: 77
+2020-02-22 20:02:13,744 - INFO - WARNING: ran out of memory,times: 78
+2020-02-22 20:02:13,756 - INFO - WARNING: ran out of memory,times: 79
+2020-02-22 20:02:13,778 - INFO - WARNING: ran out of memory,times: 80
+2020-02-22 20:02:13,804 - INFO - WARNING: ran out of memory,times: 81
+2020-02-22 20:02:13,823 - INFO - WARNING: ran out of memory,times: 82
+2020-02-22 20:02:13,829 - INFO - WARNING: ran out of memory,times: 83
+2020-02-22 20:02:13,843 - INFO - WARNING: ran out of memory,times: 84
+2020-02-22 20:02:13,862 - INFO - WARNING: ran out of memory,times: 85
+2020-02-22 20:02:13,880 - INFO - WARNING: ran out of memory,times: 86
+2020-02-22 20:02:13,895 - INFO - WARNING: ran out of memory,times: 87
+2020-02-22 20:02:13,909 - INFO - WARNING: ran out of memory,times: 88
+2020-02-22 20:02:13,921 - INFO - WARNING: ran out of memory,times: 89
+2020-02-22 20:02:13,939 - INFO - WARNING: ran out of memory,times: 90
+2020-02-22 20:02:13,958 - INFO - WARNING: ran out of memory,times: 91
+2020-02-22 20:02:13,980 - INFO - WARNING: ran out of memory,times: 92
+2020-02-22 20:02:13,992 - INFO - WARNING: ran out of memory,times: 93
+2020-02-22 20:02:14,009 - INFO - WARNING: ran out of memory,times: 94
+2020-02-22 20:02:14,041 - INFO - WARNING: ran out of memory,times: 95
+2020-02-22 20:02:14,062 - INFO - WARNING: ran out of memory,times: 96
